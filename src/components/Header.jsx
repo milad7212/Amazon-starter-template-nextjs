@@ -27,6 +27,27 @@ function Header() {
           />
           <SearchIcon className="h-12 p-4 " />
         </div>
+
+        {/* Right */}
+        <div className="flex items-center mx-6 space-x-6 text-xs text-white whitespace-nowrap">
+          <div className="link">
+            <p className="">Hello Milad Hassani</p>
+            <p className="font-extrabold md:text-sm">Account & Lists</p>
+          </div>
+          <div className="link">
+            <p className="">Returns</p>
+            <p className="font-extrabold md:text-sm">& Orders</p>
+          </div>
+          <div className="relative flex items-center link">
+            <span className="absolute top-0 right-0 w-4 h-4 font-bold text-center text-black bg-yellow-400 rounded-full md:right-10">
+              4
+            </span>
+            <ShoppingCartIcon className="h-10" />
+            <p className="hidden mt-2 font-extrabold md:inline md:text-sm">
+              Basket
+            </p>
+          </div>
+        </div>
       </div>
       {/* Bottom nav */}
       <div className=""></div>
