@@ -4,9 +4,9 @@ function ProductFeed({ products }) {
   return (
     <div className="">
       <h1>Products here...</h1>
-      {products.map((product) => (
+      {products.map(({ id, title, price, description, category, image }) => (
         <>
-          <p>{product.title}</p>
+          <p>{title}</p>
         </>
       ))}
     </div>
