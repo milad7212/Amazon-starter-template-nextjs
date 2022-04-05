@@ -10,6 +10,12 @@ export default function Home() {
 
       {/* Header */}
       <Header />
+
+      <main className="mx-auto max-w-screen-2xl">
+        {/* Banner */}
+
+        {/* ProductFeed */}
+      </main>
     </div>
   );
 }
